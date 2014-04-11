@@ -1,19 +1,24 @@
 {
-  "name": "jsx-loader",
-  "version": "0.9.0",
-  "description": "JSX loader for webpack",
+  "name": "msx-loader",
+  "version": "0.1.0",
+  "description": "MSX loader for webpack",
   "main": "index.js",
   "dependencies": {
-    "react-tools": "~0.9.0"
+    "msx": "0.1.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sdemjanenko/msx-loader"
+  },
   "keywords": [
     "webpack",
-    "jsx"
+    "jsx",
+    "msx",
+    "mithril"
   ],
-  "author": "Pete Hunt",
+  "author": "Stephen Demjanenko",
   "license": "Apache 2"
 }

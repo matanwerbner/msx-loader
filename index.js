@@ -1,6 +1,6 @@
-var React = require('react-tools');
+var msx = require('msx')
 
 module.exports = function(source) {
   this.cacheable();
-  return React.transform(source);
+  return msx.transform(source);
 };

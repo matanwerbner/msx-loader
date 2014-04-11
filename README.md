@@ -1,1 +1,1 @@
-# JSX loader for webpack
+# MSX loader for webpack
